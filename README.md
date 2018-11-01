@@ -9,7 +9,7 @@ Here are some of our deliverables:
 - A zoo should be initialized with a name and a location, which should both be passed as strings.
 - `Zoo.all` should return an array of all the zoo instances.
 - `Zoo#animals` should return all the animals that a specific instance of zoo has.
-- `Zoo#animal_names` should return an array of all the names of the animals in the zoo.
+- `Zoo#animal_names` should return an array of all the types of the animals in the zoo.
 - `Zoo#find_by_type` should take in the animal's type as an argument and return an array of all the animals in that zoo, which are of that type.
 - `Zoo.find_by_location` should take in a location as an argument and return an array of all the zoos with that location.
 
