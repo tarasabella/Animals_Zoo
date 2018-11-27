@@ -11,7 +11,7 @@ Here are some of our deliverables:
 - `Zoo#name` should return the name of the zoo instance.
 - `Zoo.all` should return an array of all the zoo instances.
 - `Zoo#animals` should return all the animals that a specific instance of a zoo has.
-- `Zoo#animal_species` should return an array of all the **unique** species of the animals in the zoo.
+- `Zoo#animal_species` should return an array of all the species (as strings) of the animals in the zoo. However, if you have two dogs, it should only return one "Dog" string (aka an **unique** array).
 - `Zoo#find_by_species` should take in an animal's species as an argument and return an array of all the animals in that zoo, which are of that species.
 - `Zoo#animal_nicknames` should return an array of all the nicknames of animals that a specific instance of a zoo has.
 - `Zoo.find_by_location` should take in a location as an argument and return an array of all the zoos within that location.
@@ -25,6 +25,6 @@ Here are some of our deliverables:
 - `Animal#zoo` should return the zoo instance that the instance belongs to.
 - `Animal.find_by_species` should take in an animal's species as an argument and return an array of all the animals, which are of that species.
 
-Keep in mind that in order to properly build out the relationships between an `Animal` and a `Zoo` class, an instance of one should know about the instance of the other. Consider thinking about where and how this dependency should be implemented. 
+Keep in mind that in order to properly build out the relationships between an `Animal` and a `Zoo` class, an instance of one should know about the instance of the other. Consider thinking about where and how this dependency should be implemented.
 
 There are no `rspec` files, so it's up to you to test your code within the `run.rb` file.
