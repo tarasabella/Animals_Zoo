@@ -3,6 +3,13 @@
 Welcome to your first day as a Flatiron Zookeeper!
 Today, we are being asked to create two domain models - a `Zoo` model and an `Animal` model and build out their relationships! Keep in mind that an animal can only be in one location at a time!
 
+Here are some questions to consider:
+
+What are your models?
+What does your domain look like?
+What are the relationships between your models? 
+Which model should know about the other in its initialization?
+
 Here are some of our deliverables:
 
 ## Zoo Class
