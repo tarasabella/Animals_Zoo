@@ -5,10 +5,10 @@ Today, we are being asked to create two domain models - a `Zoo` model and an `An
 
 Here are some questions to consider:
 
-What are your models?
-What does your domain look like?
-What are the relationships between your models? 
-Which model should know about the other in its initialization?
+* What are your models?
+* What does your domain look like?
+* What are the relationships between your models? 
+* Which model should know about the other in its initialization?
 
 Here are some of our deliverables:
 
